@@ -39,8 +39,8 @@ for(let i = 1; i < 101; i++){
 		console.log(i);
 		elementList.innerHTML += `<li>${i}</li>`;
 		
-		// li.append("Elemento");
-		// ul.append(li);
+		li.append(i);
+		ul.append(li);
 		// li = Number();
 		// console.log(typeof li);
 		
