@@ -21,7 +21,7 @@ for(let i = 1; i < 101; i++){
 	// 	- se il resto di i/3 e il resto di i/5 è uguale a 0 allora il numero è un multiplo di 3 se di 5 quindi stampa FizzBuzz
 	if (numerodivisibileX3 == 0 && numerodivisibileX5 == 0) {
 		console.log("FizzBuzz");
-		//elementList.innerHTML += `<li>FizzBuzz</li>`;
+		elementList.innerHTML += `<li>FizzBuzz</li>`;
 		
 	// 	- altrimenti se il resto di i/3 è uguale a 0 e il resto di i/5 è diverso da 0 allora il numero è un multiplo di 3 quindi stampa Fizz
 	} else if (numerodivisibileX3 == 0 && numerodivisibileX5 != 0 ) {
@@ -37,12 +37,12 @@ for(let i = 1; i < 101; i++){
 	// - se non è questo caso stampi in console log il valore di i
 	} else{ 
 		console.log(i);
-		//elementList.innerHTML += `<li>${i}</li>`;
+		elementList.innerHTML += `<li>${i}</li>`;
 		
-		li.append("Elemento");
-		ul.append(li);
-		li = Number();
-		console.log(typeof li);
+		// li.append("Elemento");
+		// ul.append(li);
+		// li = Number();
+		// console.log(typeof li);
 		
 
 
