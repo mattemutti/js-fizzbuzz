@@ -12,7 +12,7 @@ Si, lo abbiamo intravisto mentre facevamo la lezione sulle stringhe e i numeri (
 Consigli del giorno:
 Scriviamo sempre prima dei commenti in italiano per capire cosa vogliamo fare
 Proviamo ad immaginare le operazioni che vogliamo far svolgere al nostro programma così come lo faremmo "a mano"
-:insetto: Ricordate di usare il console.log() sia in fase di preparazione e verifica dei dati che ovviamente durante il degugging per scovare potenziali errori!
+Ricordate di usare il console.log() sia in fase di preparazione e verifica dei dati che ovviamente durante il degugging per scovare potenziali errori!
 
 BONUS 1:
 Crea un container nel DOM , aggiungendo (attraverso la funzione append()) un elemento html con il numero o la stringa corretta da mostrare.

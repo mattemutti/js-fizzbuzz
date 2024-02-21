@@ -4,8 +4,12 @@
 // - Creare un ciclo che stampi in console i numeri da 1 a 100 con for e mettere il consolo.log(i)
 for(let i = 1; i < 101; i++){
 
-	console.log(i);
-
+//	console.log(i);
+	let numerodivisibileX3 = i % 3 
+if (numerodivisibileX3 == 0) {
+	console.log(i, "Fizz");
+}
+console.log(i);
 
 }
 
