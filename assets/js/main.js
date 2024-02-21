@@ -24,15 +24,31 @@ for(let i = 1; i < 101; i++){
 	if (numerodivisibileX3 == 0 && numerodivisibileX5 == 0) {
 		console.log("FizzBuzz");
 		//elementList.innerHTML += `<li>FizzBuzz</li>`;
-		li.append('FizzBuzz');
+
+	 	li.append('FizzBuzz');
 		ul.append(li);
+
+		li.style.width = "100px";
+		li.style.height = "100px";
+		li.style.backgroundColor = "red";
+		li.style.textAlign = "center";
+		li.style.lineHeight = "80px";
+		li.style.color = "white";
 		
 	// 	- altrimenti se il resto di i/3 è uguale a 0 e il resto di i/5 è diverso da 0 allora il numero è un multiplo di 3 quindi stampa Fizz
 	} else if (numerodivisibileX3 == 0 && numerodivisibileX5 != 0 ) {
 		console.log("Fizz");
 		//elementList.innerHTML += `<li>Fizz</li>`;
+
 		li.append('Fizz');
 		ul.append(li);
+
+		li.style.width = "100px";
+		li.style.height = "100px";
+		li.style.backgroundColor = "green";
+		li.style.textAlign = "center";
+		li.style.lineHeight = "80px";
+		li.style.color = "purple";
 
 	// 	- altrimenti se il resto di i/3 è diverso da 0 e il resto di i/5 è uguale a 0 allora il numero è un multiplo di 5 quindi stampa Buzz
 	} else if (numerodivisibileX3 != 0 && numerodivisibileX5 == 0 ) {
@@ -40,6 +56,13 @@ for(let i = 1; i < 101; i++){
 		//elementList.innerHTML += `<li>Buzz</li>`;
 		li.append('Buzz');
 		ul.append(li);
+		
+		li.style.width = "100px";
+		li.style.height = "100px";
+		li.style.backgroundColor = "blue";
+		li.style.textAlign = "center";
+		li.style.lineHeight = "80px";
+		li.style.color = "white";
 
 
 	// - se non è questo caso stampi in console log il valore di i
@@ -49,12 +72,16 @@ for(let i = 1; i < 101; i++){
 		
 		li.append(i);
 		ul.append(li);
-	
-		
 
+		li.style.width = "100px";
+		li.style.height = "100px";
+		li.style.backgroundColor = "yellow";
+		li.style.textAlign = "center";
+		li.style.lineHeight = "80px";
 
 	}
 
+	
 
 	// 	- altrimenti se il resto di i/3 è uguale a 0 allora il numero è un multiplo di 5 quindi stampa buzz
 
