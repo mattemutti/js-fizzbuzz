@@ -2,6 +2,12 @@
 
 
 // - Creare un ciclo che stampi in console i numeri da 1 a 100 con for e mettere il consolo.log(i)
+for(let i = 1; i < 101; i++){
+
+	console.log(i);
+
+
+}
 
 // - ad ogni loop dobbiamo controllare se quel numero è divisibile per 3 o per 5
 
@@ -16,36 +22,9 @@
 
 
 // Prova numeri divisibili per 3
-let x = 30
-console.log(x % 3);
-x = 31
-console.log(x % 3);
-x = 15
-console.log(x % 3);
-x = 55
-console.log(x % 3);
-x = 12
-console.log(x % 3);
-x = 90
-console.log(x % 3);
-x = 120
-console.log(x % 3);
-
-console.log("divisibili per 5");
+// let x = 30
+// let y = x % 3
+// console.log(typeof y, y);
+// se un numero è divisibili per 3 come risultato darà = 0 altrimenti darà 1 (idem per il numero 5)
 
 
-// Prova numeri divisibili per 5
-let y = 30
-console.log(y % 5);
-y = 31
-console.log(y % 5);
-y = 15
-console.log(x % 5);
-y = 55
-console.log(y % 5);
-y = 12
-console.log(y % 5);
-y = 90
-console.log(y % 5);
-y = 120
-console.log(y % 5);
